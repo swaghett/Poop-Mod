@@ -1,0 +1,12 @@
+{
+    "variants": {
+  "facing=south,state=false": { "model": "poop:toilet" },
+  "facing=east,state=false": { "model": "poop:toilet","y":270 },
+  "facing=west,state=false": { "model": "poop:toilet","y":90 },
+  "facing=north,state=false": { "model": "poop:toilet","y":180 },
+  "facing=south,state=true": { "model": "poop:toilet_closed" },
+  "facing=east,state=true": { "model": "poop:toilet_closed","y":270 },
+  "facing=west,state=true": { "model": "poop:toilet_closed","y":90 },
+  "facing=north,state=true": { "model": "poop:toilet_closed","y":180 }
+    }
+}

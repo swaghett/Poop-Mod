@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BB",
+        "BB"
+        
+    ],
+       
+       "key":
+        {
+            "B":
+            {
+                "item": "poop:poop_ingot"
+            }
+       },
+       
+       "result":
+       {
+            "item": "poop:poop_bricks",
+            "count": 4
+        }        
+}

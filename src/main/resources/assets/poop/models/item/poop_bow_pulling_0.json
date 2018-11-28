@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "poop:items/poop_bow_pulling_0"
+    }
+}

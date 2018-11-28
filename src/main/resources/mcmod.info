@@ -1,0 +1,16 @@
+[
+{
+  "modid": "poop",
+  "name": "Poop Mod",
+  "description": "Just Poop Mod!",
+  "version": "1.3.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Tiviacz1337"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

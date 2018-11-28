@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+    
+        "P P",
+        "P P"
+        
+    ],
+       
+       "key":
+        {
+            "P":
+            {
+                "item": "poop:poop_ingot"
+            }
+           
+       },
+       
+       "result":
+       {
+            "item": "poop:poop_boots",
+            "count": 1
+        }        
+}

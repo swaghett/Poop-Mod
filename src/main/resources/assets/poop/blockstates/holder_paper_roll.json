@@ -1,0 +1,8 @@
+{
+    "variants": {
+  "facing=south": { "model": "poop:holder_paper_roll" },
+  "facing=east": { "model": "poop:holder_paper_roll","y":270 },
+  "facing=west": { "model": "poop:holder_paper_roll","y":90 },
+  "facing=north": { "model": "poop:holder_paper_roll","y":180 }
+    }
+}

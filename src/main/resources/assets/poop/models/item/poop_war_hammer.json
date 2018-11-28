@@ -1,0 +1,6 @@
+{
+   "parent": "item/handheld",
+   "textures": {
+       "layer0": "poop:items/poop_war_hammer"
+   }
+}

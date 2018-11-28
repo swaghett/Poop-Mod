@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "PPP",
+        "PPP"
+        
+    ],
+       
+       "key":
+        {
+            "P":
+            {
+                "item": "poop:poop_bricks"
+            }
+           
+       },
+       
+       "result":
+       {
+            "item": "poop:poop_fence",
+            "count": 6
+        }        
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "poop:blocks/poop_bricks",
+        "top": "poop:blocks/poop_bricks",
+        "side": "poop:blocks/poop_bricks"
+    }
+}

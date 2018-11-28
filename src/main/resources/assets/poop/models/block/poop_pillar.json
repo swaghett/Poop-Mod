@@ -1,0 +1,9 @@
+{
+   "parent": "block/cube_column",
+   "textures": {
+       "particle": "poop:blocks/poop_pillar_top",
+        "end": "poop:blocks/poop_pillar_top",
+        "side": "poop:blocks/poop_pillar_side"
+        
+    }
+}

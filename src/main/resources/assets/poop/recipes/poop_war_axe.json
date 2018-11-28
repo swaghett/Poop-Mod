@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "PPP",
+        "PSP",
+        " S "
+        
+    ],
+       
+       "key":
+        {
+            "P":
+            {
+                "item": "poop:poop_ingot"
+            },
+            
+            "S":
+            {
+                "item": "minecraft:stick"
+            }
+           
+       },
+       
+       "result":
+       {
+            "item": "poop:poop_war_axe",
+            "count": 1
+        }        
+}

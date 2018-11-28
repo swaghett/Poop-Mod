@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "ISI",
+        "WBW",
+        "III"
+        
+    ],
+       
+       "key":
+        {
+            "S":
+            {
+                "item": "minecraft:stone_button"
+            },
+            
+            "B":
+            {
+                "item": "minecraft:water_bucket"
+            },
+            
+            "I":
+            {
+                "item": "minecraft:iron_ingot"              
+            },
+            
+            "W":
+            {
+                "item": "minecraft:carpet",
+                "data": 0
+            }
+                
+           
+       },
+       
+       "result":
+       {
+            "item": "poop:toilet",
+            "count": 1
+        }        
+}

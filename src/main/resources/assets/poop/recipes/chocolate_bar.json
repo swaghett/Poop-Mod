@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "X P",
+        "WSP",
+        "X P"
+    ],
+       
+       "key":
+        {
+            "S":
+            {
+                "item": "poop:poop_ingot"
+            },
+            
+            "P":
+            {
+                "item": "minecraft:sugar"
+            },
+            
+            "W":
+            {
+                "item": "minecraft:paper"
+            },
+            
+            "X":
+            {
+                "item": "minecraft:dye",
+                "data": 4
+            }
+           
+       },
+       
+       "result":
+       {
+            "item": "poop:chocolate_bar",
+            "count": 2
+        }        
+}

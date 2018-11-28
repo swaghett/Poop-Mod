@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "poop:poop_slab_bottom" },
+        "half=top": { "model": "poop:poop_slab_top" }
+    }
+}

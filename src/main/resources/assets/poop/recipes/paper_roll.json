@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "poop:toilet_paper"
+    },
+    {
+      "item": "poop:toilet_paper"
+    },
+    {
+      "item": "poop:toilet_paper"
+    },
+    {
+      "item": "poop:toilet_paper"
+    },
+    {
+      "item": "poop:toilet_paper"
+    },
+    {
+      "item": "poop:toilet_paper"
+    },
+    {
+      "item": "poop:toilet_paper"
+    },
+    {
+      "item": "poop:toilet_paper"
+    },
+    {
+      "item": "poop:empty_roll"
+    }
+  ],
+  "result": {
+    "item": "poop:paper_roll",
+    "count": 1
+  }
+}

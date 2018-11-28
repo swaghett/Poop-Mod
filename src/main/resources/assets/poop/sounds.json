@@ -1,0 +1,7 @@
+{
+    
+        "block.toilet.flushsound": {
+    "category": "block",
+    "sounds": [{"name" : "poop:block/toilet/flushsound"}]
+     }
+    }   

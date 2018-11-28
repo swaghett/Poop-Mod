@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "P",
+        "P",
+        "S"
+        
+    ],
+       
+       "key":
+        {
+            "P":
+            {
+                "item": "poop:poop_ingot"
+            },
+            
+            "S":
+            {
+                "item": "minecraft:stick"
+            }
+           
+       },
+       
+       "result":
+       {
+            "item": "poop:poop_sword",
+            "count": 1
+        }        
+}

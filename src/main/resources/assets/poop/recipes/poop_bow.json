@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " PS",
+        "P S",
+        " PS"
+        
+    ],
+       
+       "key":
+        {
+            "P":
+            {
+                "item": "poop:poop_ingot"
+            },
+            
+            "S":
+            {
+                "item": "minecraft:string"
+            }
+           
+       },
+       
+       "result":
+       {
+            "item": "poop:poop_bow",
+            "count": 1
+        }        
+}
