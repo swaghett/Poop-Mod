@@ -28,10 +28,5 @@ public class BlockPoopFence extends BlockFence implements IHasModel
 			
 		ModBlocks.BLOCKS.add(this);
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
-}
-	@Override
-	public void registerModels()
-	{
-		Poop.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
 	}
 }

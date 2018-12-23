@@ -17,11 +17,4 @@ public class FoodBase extends ItemFood implements IHasModel
 		
 		ModItems.ITEMS.add(this);
 	}
-	
-	@Override
-	public void registerModels()
-	{
-		Poop.proxy.registerItemRenderer(this, 0, "inventory");
-	}
-
 }

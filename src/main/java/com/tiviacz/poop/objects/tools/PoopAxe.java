@@ -37,10 +37,4 @@ public class PoopAxe extends ItemTool implements IHasModel
 		Material material = state.getMaterial();
 		return material != Material.WOOD && material != Material.PLANTS && material != Material.VINE ? super.getDestroySpeed(stack, state) : this.efficiency;
 	}
-
-	@Override
-	public void registerModels() 
-	{
-		Poop.proxy.registerItemRenderer(this, 0, "inventory");
-	}
 }	

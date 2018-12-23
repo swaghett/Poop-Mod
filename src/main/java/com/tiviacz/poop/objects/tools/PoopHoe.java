@@ -18,10 +18,4 @@ public class PoopHoe extends ItemHoe implements IHasModel
 		
 		ModItems.ITEMS.add(this);
 	}
-	
-	@Override
-	public void registerModels()
-	{
-		Poop.proxy.registerItemRenderer(this, 0,"inventory");
-	}
 }

@@ -1,6 +1,5 @@
 package com.tiviacz.poop.init.base;
 
-
 import com.tiviacz.poop.Poop;
 import com.tiviacz.poop.init.ModItems;
 import com.tiviacz.poop.util.IHasModel;
@@ -19,11 +18,4 @@ public class ItemBase extends Item implements IHasModel
 		
 		ModItems.ITEMS.add(this);
 	}
-
-	@Override
-	public void registerModels()
-	{
-		Poop.proxy.registerItemRenderer(this, 0,"inventory");
-	}
 }
-

@@ -38,11 +38,11 @@ public class Poop
 	public static CommonProxy proxy;
 	
 	@EventHandler
-	public static void PreInit(FMLPreInitializationEvent event){EventsHandler.PreInitRegistries();}
+	public void PreInit(FMLPreInitializationEvent event){proxy.preInitRegistries(event);}
 	
 	@EventHandler
-	public static void init(FMLInitializationEvent event){EventsHandler.initRegistries();}
+	public void init(FMLInitializationEvent event){proxy.initRegistries(event);}
 	
 	@EventHandler
-	public static void PostInit(FMLPostInitializationEvent event){EventsHandler.PostInitRegistries();}
+	public void PostInit(FMLPostInitializationEvent event){proxy.postInitRegistries(event);}
 }

@@ -19,11 +19,4 @@ public class ArmorBase extends ItemArmor implements IHasModel
 		
 		ModItems.ITEMS.add(this);
 	}
-
-	@Override
-	public void registerModels()
-	{
-		Poop.proxy.registerItemRenderer(this, 0,"inventory");
-	}
 }
-

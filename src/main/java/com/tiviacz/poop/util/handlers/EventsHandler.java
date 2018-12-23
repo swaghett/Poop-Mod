@@ -5,62 +5,31 @@ import java.util.List;
 import com.tiviacz.poop.Poop;
 import com.tiviacz.poop.init.ModBlocks;
 import com.tiviacz.poop.init.ModItems;
-import com.tiviacz.poop.init.ModSmelteryRecipes;
 import com.tiviacz.poop.objects.blocks.BlockToilet;
 import com.tiviacz.poop.objects.entities.SeatToilet;
-import com.tiviacz.poop.tileentity.TileEntityPaperRoll;
 import com.tiviacz.poop.util.IHasModel;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockSlab;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.monster.EntityMob;
-import net.minecraft.entity.passive.EntityAnimal;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.init.Blocks;
-import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemBlock;
-import net.minecraft.item.ItemSlab;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.EnumFacing;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
-import net.minecraft.world.chunk.Chunk;
 import net.minecraftforge.client.event.ModelRegistryEvent;
-import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.common.config.Config;
 import net.minecraftforge.common.config.ConfigManager;
 import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.event.entity.living.LivingEvent;
-import net.minecraftforge.event.entity.living.LivingEvent.LivingUpdateEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.fml.client.event.ConfigChangedEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.fml.common.registry.ForgeRegistries;
-import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @EventBusSubscriber
 public class EventsHandler 
 {
-	public static void PreInitRegistries(){}
-	
-	public static void initRegistries() 	
-	{
-		SoundsHandler.registerSounds();
-		ModSmelteryRecipes.init();
-		GameRegistry.registerTileEntity(TileEntityPaperRoll.class, new ResourceLocation(Poop.MODID + ":TileEntityPaperRoll"));
-	}
-	
-	public static void PostInitRegistries(){}
-	
 	@SubscribeEvent
 	public static void onItemRegister(RegistryEvent.Register<Item> event)
 	{
@@ -80,14 +49,14 @@ public class EventsHandler
 		{
 			if(item instanceof IHasModel)
 			{
-				((IHasModel)item).registerModels();
+				Poop.proxy.registerItemRenderer(item, 0,"inventory");
 			}
 		}
 		for(Block block : ModBlocks.BLOCKS)
 		{
 			if(block instanceof IHasModel)
 			{
-				((IHasModel)block).registerModels();
+				Poop.proxy.registerItemRenderer(Item.getItemFromBlock(block), 0, "inventory");
 			}
 		}
 	}
@@ -141,7 +110,7 @@ public class EventsHandler
         }
     }
 	
-	@SubscribeEvent
+/*	@SubscribeEvent
 	public static void onHostileUpdate(LivingUpdateEvent event)
 	{
 		World world = event.getEntity().world;
@@ -178,14 +147,5 @@ public class EventsHandler
 				}
 			}
 		}
-	}
-	
-	@SubscribeEvent
-	public static void onConfigChanged(ConfigChangedEvent.OnConfigChangedEvent event)
-    {
-        if(event.getModID().equals(Poop.MODID))
-        {
-            ConfigManager.sync(Poop.MODID, Config.Type.INSTANCE);
-        }
-    }
+	} */
 }

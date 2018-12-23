@@ -50,4 +50,3 @@ public class PoopKatana extends PoopSword
 	    }
 	}
 }
-
