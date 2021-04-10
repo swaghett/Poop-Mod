@@ -12,7 +12,7 @@ public class ItemBase extends Item implements IHasModel
 {
 	public ItemBase(String name)
 	{
-		setTranslationKey(name);
+		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(Poop.POOPTAB);
 		

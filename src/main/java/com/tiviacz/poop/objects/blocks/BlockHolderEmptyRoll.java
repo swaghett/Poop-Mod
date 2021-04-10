@@ -42,7 +42,7 @@ public class BlockHolderEmptyRoll extends Block
 	{
 		super(material);
 		
-		setTranslationKey(name);
+		setUnlocalizedName(name);
 		setRegistryName(name);
 		
 		setSoundType(SoundType.METAL);

@@ -13,7 +13,7 @@ public class ArmorBase extends ItemArmor implements IHasModel
 	{	
 		super(materialIn, renderIndexIn, equipmentSlotIn);
 		
-		setTranslationKey(name);
+		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(Poop.POOPTAB);
 		

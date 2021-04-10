@@ -12,7 +12,7 @@ public class PoopSword extends ItemSword implements IHasModel
 	{
 		super(material);
 		
-		setTranslationKey(name);
+		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(Poop.POOPTAB);
 		
