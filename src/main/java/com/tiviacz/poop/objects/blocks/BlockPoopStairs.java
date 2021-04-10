@@ -18,7 +18,7 @@ public class BlockPoopStairs extends BlockStairs implements IHasModel
 	{
 		super(modelState);
 		
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		setCreativeTab(Poop.POOPTAB);
 		setSoundType(SoundType.STONE);

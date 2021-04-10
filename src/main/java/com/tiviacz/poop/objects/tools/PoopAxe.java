@@ -23,7 +23,7 @@ public class PoopAxe extends ItemTool implements IHasModel
 	{
 		super(material, EFFECTIVE_ON);
 		
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		setCreativeTab(Poop.POOPTAB);
 		this.attackSpeed = -3.0F;

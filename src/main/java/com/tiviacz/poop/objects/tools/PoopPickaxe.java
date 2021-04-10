@@ -13,7 +13,7 @@ public class PoopPickaxe extends ItemPickaxe implements IHasModel
 	{
 		super(material);
 		
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		setCreativeTab(Poop.POOPTAB);
 		

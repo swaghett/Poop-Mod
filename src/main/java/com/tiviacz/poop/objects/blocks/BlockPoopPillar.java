@@ -18,7 +18,7 @@ public class BlockPoopPillar extends BlockRotatedPillar implements IHasModel
 	{
 		super(material);
 		
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		setCreativeTab(Poop.POOPTAB);
 		setSoundType(SoundType.STONE);

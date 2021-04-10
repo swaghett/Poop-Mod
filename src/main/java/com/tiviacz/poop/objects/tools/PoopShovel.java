@@ -12,7 +12,7 @@ public class PoopShovel extends ItemSpade implements IHasModel
 	{
 		super(material);
 		
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		setCreativeTab(Poop.POOPTAB);
 		

@@ -18,7 +18,7 @@ public class BlockPoopFence extends BlockFence implements IHasModel
 	{
 		super(material, mapColorIn);
 		
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		setCreativeTab(Poop.POOPTAB);	
 		setSoundType(SoundType.STONE);

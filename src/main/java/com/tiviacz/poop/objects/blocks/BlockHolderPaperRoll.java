@@ -50,7 +50,7 @@ public class BlockHolderPaperRoll extends Block implements ITileEntityProvider
 	{
 		super(material);
 		
-		setUnlocalizedName(name);
+		setTranslationKey(name);
 		setRegistryName(name);
 		
 		setSoundType(SoundType.METAL);
