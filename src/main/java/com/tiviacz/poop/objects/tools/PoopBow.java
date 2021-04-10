@@ -21,9 +21,9 @@ public class PoopBow extends ItemBow implements IHasModel
 	 public PoopBow(String name) 
 	 {
 		 setMaxDamage(700);
-		 setUnlocalizedName(name);
-		 setRegistryName(name);
-		 setCreativeTab(Poop.POOPTAB);
+		 this.setUnlocalizedName(name);
+		 this.setRegistryName(name);
+		 this.setCreativeTab(Poop.POOPTAB);
 		 this.addPropertyOverride(new ResourceLocation("pull"), new IItemPropertyGetter()
 	        {
 	            @SideOnly(Side.CLIENT)

@@ -12,9 +12,9 @@ public class PoopHoe extends ItemHoe implements IHasModel
 	{
 		super(material);
 		
-		setUnlocalizedName(name);
-		setRegistryName(name);
-		setCreativeTab(Poop.POOPTAB);
+		this.setUnlocalizedName(name);
+		this.setRegistryName(name);
+		this.setCreativeTab(Poop.POOPTAB);
 		
 		ModItems.ITEMS.add(this);
 	}
